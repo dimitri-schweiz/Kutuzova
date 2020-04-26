@@ -207,7 +207,7 @@ h2 {
     }
 
     .quote-author {
-        font-size: (12 / 16) + rem;
+        font-size: (16 / 16) + rem;
         font-weight: 300;
         color: $text-color-secondary;
         text-align: right;
@@ -273,6 +273,7 @@ h2 {
     .video-info {
         display: flex;
         justify-content: space-between;
+        padding-top: 15px;
         padding-bottom: 45px;
         white-space: pre-line;
         border-bottom: 1px solid #222;

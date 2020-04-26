@@ -16,8 +16,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Тут можно вписать название",
-                description: "А тут описание"
+                title: "",
+                description: ""
             }
         },
         {
@@ -27,8 +27,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Название",
-                description: "Или любой другой текст"
+                title: "",
+                description: ""
             }
         },
         {
@@ -38,7 +38,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "название",
+                title: "",
                 description: ""
             }
         },
@@ -49,7 +49,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "название",
+                title: "",
                 description: ""
             }
         },
@@ -60,7 +60,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -71,7 +71,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -82,7 +82,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -93,7 +93,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -104,7 +104,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -115,7 +115,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -126,8 +126,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
-                description: "Иногда приходится кланяться"
+                title: "",
+                description: ""
             }
         },
         {
@@ -137,7 +137,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -148,7 +148,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -159,7 +159,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -170,7 +170,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -181,7 +181,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -192,7 +192,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -203,7 +203,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -214,7 +214,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -225,7 +225,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -236,7 +236,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -247,7 +247,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -258,7 +258,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -269,7 +269,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -280,7 +280,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -291,7 +291,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -302,7 +302,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -313,7 +313,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -324,7 +324,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -335,7 +335,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -346,7 +346,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -357,7 +357,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -368,7 +368,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -379,7 +379,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -390,7 +390,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -401,8 +401,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Тут можно вписать название",
-                description: "А тут описание"
+                title: "",
+                description: ""
             }
         },
         {
@@ -412,8 +412,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Название",
-                description: "Или любой другой текст"
+                title: "",
+                description: ""
             }
         },
         {
@@ -423,7 +423,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "название",
+                title: "",
                 description: ""
             }
         },
@@ -445,7 +445,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -456,7 +456,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -467,7 +467,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -478,7 +478,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -489,7 +489,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -500,7 +500,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -511,8 +511,8 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
-                description: "Иногда приходится кланяться"
+                title: "",
+                description: ""
             }
         },
         {
@@ -522,7 +522,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -533,7 +533,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -544,7 +544,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -555,7 +555,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -566,7 +566,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -577,7 +577,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -588,7 +588,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "Другое название",
+                title: "",
                 description: ""
             }
         },
@@ -675,12 +675,12 @@ const data = {
                 en: {
                     label: "P.I.Tchaikovsky",
                     trackName: "Theme & Variations",
-                    description: ""
+                    description: "Moscow, februar 2019 "
                 },
                 ru: {
                     label: "П.И.Чайковский",
                     trackName: "Тема с вариациями",
-                    description: "Москва, ЦМШ январь 2019"
+                    description: "Москва, февраль 2019"
                 }
             }
         ]
@@ -697,7 +697,7 @@ const data = {
             },
             {
                 date: "2020-03-26",
-                toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
+                toTickets: "",
                 en: {
                     dateString: "",
                     place: "Recital",
@@ -708,37 +708,37 @@ const data = {
                     date: "",
                     place: "Сольный концерт",
                     location: "Московская филармония,\nкамерный зал",
-                    buttonText: "Информация"
+                    buttonText: ""
                 }
             },
             {
                 date: "2020-04-16",
-                toTickets: "https://juniormusictour.ru/#grafik",
+                toTickets: "",
                 en: {
                     place: "Junior Music Tour",
                     location: "Philharmony hall,\nTula",
-                    buttonText: "Info"
+                    buttonText: "Сancel"
                 },
                 ru: {
                     place: "Junior Music Tour",
                     location: "Филармония,\nг. Тула",
-                    buttonText: "Информация"
+                    buttonText: "Отмена"
                 }
             },
             {
                 date: "2020-04-21",
-                toTickets: "https://kogf.ru/?page_id=1370&event_id1=7793",
+                toTickets: "",
                 en: {
                     dateString: "",
                     place: "Recital",
                     location: "Philharmony hall,\nKursk",
-                    buttonText: "Tickets"
+                    buttonText: "Сancel"
                 },
                 ru: {
                     dateString: "",
                     place: "Сольный концерт",
                     location: "Филармония,\nг. Курск",
-                    buttonText: "Купить билет"
+                    buttonText: "Отмена"
                 }
             },
             {
@@ -762,13 +762,13 @@ const data = {
                     dateString: "Jul 12\n - Aug 3",
                     place: "Verbier Festival Academy",
                     location: "Verbier,\n Switzerland",
-                    buttonText: "Info"
+                    buttonText: "Cancel"
                 },
                 ru: {
                     dateString: "12 июля\n - 3 авг.",
                     place: "Академия Вербье",
                     location: "г. Вербье,\nШвейцария",
-                    buttonText: "Информация"
+                    buttonText: "Отмена"
                 }
             },
             {
@@ -957,7 +957,7 @@ const data = {
                     text: "Скачать полную биографию",
                 },
             },
-            {
+            /* {
                 en: {
                     fileName: "Bio_1_en.pdf",
                     text: "Download Repertoire",
@@ -986,7 +986,7 @@ const data = {
                     fileName: "Bio_1_ru.pdf",
                     text: "Скачать статьи",
                 },
-            },
+            }, */
         ],
         shortBioText: {
             en: {

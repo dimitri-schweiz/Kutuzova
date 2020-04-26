@@ -53,7 +53,7 @@ function MusicPage() {
                         </div>
                     ))}
                 </div>
-                <div className="audio-player-block">
+                {/* <div className="audio-player-block">
                     <h2 className="title">
                         {t("music_page.audio_title")}
                     </h2>
@@ -63,7 +63,7 @@ function MusicPage() {
                     <div className="audio-subtitle">
                         {music.albumTitle[currentLang]}
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     );

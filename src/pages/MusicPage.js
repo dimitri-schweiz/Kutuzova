@@ -2,6 +2,8 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 import ReactPlayer from "react-player";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 import AudioPlayer from "../components/mediaPlayer/AudioPlayer";
 import data from "../data";
@@ -52,6 +54,18 @@ function MusicPage() {
                             </div>
                         </div>
                     ))}
+                    <div className="youtube-links">
+                        {video.youtube_chanel_links.map((link, index) => (
+                            <div className="youtube-link" key={index}>
+                                {link.url &&
+                                    <a href={link.url} className="youtube-chanel-link" target="_blank" rel="noopener noreferrer">
+                                        <span><FontAwesomeIcon icon={faYoutube} /></span>
+                                        {link[currentLang].title}
+                                    </a>
+                                }
+                            </div>
+                        ))}
+                    </div>
                 </div>
                 {/* <div className="audio-player-block">
                     <h2 className="title">

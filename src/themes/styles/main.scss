@@ -273,10 +273,9 @@ h2 {
     .video-info {
         display: flex;
         justify-content: space-between;
-        padding-top: 15px;
         padding-bottom: 45px;
         white-space: pre-line;
-        border-bottom: 1px solid #222;
+        border-bottom: 1px solid #979797;
     }
 
     .video-title {
@@ -293,6 +292,20 @@ h2 {
     .video-description {
         font-size: (12 / 16) + rem;
         text-align: right;
+    }
+
+    .youtube-links {
+        padding: 24px 0;
+    }
+
+    .youtube-link {
+        margin: 8px 0;
+        font-size: 30px;
+
+        svg {
+            margin-right: 50px;
+            font-size: 48px;
+        }
     }
 }
 

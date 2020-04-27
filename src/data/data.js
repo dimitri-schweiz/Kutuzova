@@ -654,6 +654,17 @@ const data = {
         ]
     },
     video: {
+        youtube_chanel_links: [
+            {
+                url: "https://www.youtube.com/user/kutandr/videos",
+                en: {
+                    title: "More Videos on my YouTube Chanel"
+                },
+                ru: {
+                    title: "Больше видео на моём канале в YouTube"
+                }
+            },
+        ],
         tracks: [
             {
                 url: "https://www.youtube.com/embed/mAVM5qwed8A",

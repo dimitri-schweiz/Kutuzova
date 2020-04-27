@@ -1,11 +1,11 @@
 $font-family: 'Open Sans', sans-serif;
 $font-family-second: 'Raleway', sans-serif;
-$body-bg-color: #fff;
-$text-color: #000;
-$link-color: #222;
+$body-bg-color: #000;
+$text-color: #e6e6e6;
+$link-color: #e6e6e6;
 $link-active-color: #27d3b4;
-$text-color-secondary: #309c89;
-$title-color: #000;
+$text-color-secondary: #27d3b4;
+$title-color: #e6e6e6ef;
 
 @mixin respond($media) {
     @if $media == sm {

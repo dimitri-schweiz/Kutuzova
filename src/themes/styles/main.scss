@@ -38,7 +38,7 @@ header {
 footer {
     padding: 15px 0;
     text-align: left;
-    color: #000;
+    color: #e6e6e6ef;
     font-size: (12 / 16) + rem;
     @include respond(sm) {
         font-size: (16 / 16) + rem;
@@ -184,7 +184,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0 60px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #979797;
 
     .quotes {
         flex: 0 0 56%;
@@ -224,7 +224,7 @@ h2 {
 .contacts-block {
     padding: 105px 0 60px 35%;
     min-height: 200px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #979797;
 
     .contact {
         margin-bottom: 45px;
@@ -251,7 +251,7 @@ h2 {
         padding-bottom: 70px;
         margin-bottom: 21px;
         white-space: pre-line;
-        //border-bottom: 1px solid #222;
+        //border-bottom: 1px solid #979797;
     }
 
     .video {
@@ -273,7 +273,7 @@ h2 {
     .video-info {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 45px;
+        padding: 15px 0 45px 0;
         white-space: pre-line;
         border-bottom: 1px solid #979797;
     }
@@ -295,7 +295,8 @@ h2 {
     }
 
     .youtube-links {
-        padding: 24px 0;
+        padding: 24px 0 50px 0;
+        border-bottom: 1px solid #979797;
     }
 
     .youtube-link {
@@ -311,7 +312,7 @@ h2 {
 
 .tour-block {
     padding: 15px 0 45px;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #979797;
 }
 
 .events-year {
@@ -336,7 +337,6 @@ h2 {
         font-weight: 700;
         font-size: (28 / 16) + rem;
         margin-bottom: 10px;
-        color: #333;
         white-space: pre-line;
         @include respond(sm) {
             font-size: (32 / 16) + rem;
@@ -378,7 +378,7 @@ h2 {
             display: block;
             width: 100%;
             padding: 10px 0;
-            border: 1px solid #222;
+            border: 1px solid $text-color-secondary;
             text-align: center;
             transition: none;
             text-decoration: none;
@@ -389,7 +389,7 @@ h2 {
 
             &:hover {
                 background-color: #000;
-                color: #fff;
+                color: $link-active-color;
             }
         }
     }
@@ -401,7 +401,8 @@ h2 {
         left: -15px;
         bottom: 10%;
         padding: 15px;
-        background-color: #fff;
+        color: #34cfc8;
+        background-color: #000;
     }
 
     h2.title {
@@ -415,7 +416,8 @@ h2 {
     .block-bio {
         display: flex;
         flex-wrap: wrap;
-        padding-top: 40px;
+        padding: 40px 0 60px 0;
+        border-bottom: 1px solid #979797;
     }
 
     .bio-content {

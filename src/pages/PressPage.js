@@ -70,7 +70,7 @@ function PressPage() {
                     </div>
 
                 </div>
-                <div className="block-riders">
+                {/* <div className="block-riders">
                     <div className="left">
                         <h2 className="title">
                             {t("press_page.riders_title")}
@@ -105,7 +105,7 @@ function PressPage() {
                             ))}
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     );

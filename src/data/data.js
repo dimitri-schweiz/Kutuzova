@@ -677,7 +677,7 @@ const data = {
                 ru: {
                     label: "",
                     trackName: "Soul of SENAR",
-                    description: `Режиссёр и оператор ИВАН ПРСКУРЯКОВ
+                    description: `Режиссёр и оператор ИВАН ПРОСКУРЯКОВ
                     Produced by ArtDIALOG`
                 }
             },
@@ -713,7 +713,7 @@ const data = {
                     dateString: "",
                     place: "Recital",
                     location: "Moscow Philharmony,\nchamber hall",
-                    buttonText: "Info"
+                    buttonText: ""
                 },
                 ru: {
                     date: "",
@@ -877,7 +877,7 @@ const data = {
                 }
             },
             {
-                date: "2020-04-10",
+                date: "2021-04-10",
                 toTickets: "http://rznfilarmonia.ru/afisha/",
                 en: {
                     place: "Concert with Orchestra",
@@ -919,7 +919,7 @@ const data = {
                     author: "- Денис Мацуев"
                 },
                 {
-                    text: "Многие играют на фортепиано, но заставляют себя слушать – единицы. Варя из их числа!",
+                    text: "Многие играют на фортепиано, но заставляют себя слушать – единицы. Варвара из их числа!",
                     author: "- Николай Луганский"
                 },
             ],
@@ -1141,15 +1141,15 @@ const data = {
         items: [
             {
                 title: {
-                    en: "World management | ArtDialog Agency",
-                    ru: "Международный менеджмент | ArtDialog Agency"
+                    en: "General management | ArtDialog Agency",
+                    ru: "Генеральный менеджмент | ArtDialog Agency"
                 },
                 email: "vasylyev@artdialog.ch",
                 phoneNumber: "+41763655316"
             },
             {
                 title: {
-                    en: "Russia management | Kate Goltzman",
+                    en: "Russia management | Ekaterina Goltzman",
                     ru: "Менеджмент по России | Екатерина Гольцман"
                 },
                 email: "goltcmangroup@gmail.com",

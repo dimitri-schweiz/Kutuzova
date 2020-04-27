@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 
-import homeImage from "assets/images/base/tour.jpg";
+import mainImage from "assets/images/base/tour.jpg";
 
 import data from "../data";
 
@@ -20,9 +20,9 @@ function TourPage() {
             </Helmet>
             <div className="content fade-in content-tour">
                 <div className="main-banner">
-                    <img src={homeImage} alt="" className="main-photo" />
+                    <img src={mainImage} alt="" className="main-photo" />
                 </div>
-                <div className="title-block">
+                <div className="block block-main-title">
                     <div className="title-wrap">
                         <h1 className="title">
                             {t("tour_page.title")}
@@ -35,29 +35,38 @@ function TourPage() {
                         <div className="local"></div>
                         <div className="social"></div>
                     </div>
-                    {tour.events.map((event, index) => (
-                        <div className="events">
-                            <div className="event">
-                                <div className="event-date">
-                                    <span className="day">
-                                        {new Date(event.date).toLocaleDateString(currentLang, { day: "numeric" })}
-                                    </span>
-                                    <span className="month">
-                                        {new Date(event.date).toLocaleDateString(currentLang, { month: "short" })}
-                                    </span>
-                                </div>
-                                <div className="event-place">
-                                    {event[currentLang].place}
-                                </div>
-                                <div className="event-location">
-                                    {event[currentLang].location}
-                                </div>
-                                <div className="event-tickets">
-                                    <a className="link" href={event.toTickets} alt="ticket" target="_blank" rel="noopener noreferrer">Tickets</a>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                    <div className="events">
+                        {tour.events.map((event, index) => (
+                            event[currentLang].year
+                                ? <div className="events-year">{event[currentLang].year}</div>
+                                : (
+                                    <div className="event">
+                                        <div className="event-date">
+                                            {event[currentLang].dateString
+                                                ? event[currentLang].dateString
+                                                : new Date(event.date).toLocaleDateString(currentLang, { day: "numeric", month: "short" })
+                                            }
+                                        </div>
+                                        <div className="event-place">
+                                            {event[currentLang].place}
+                                        </div>
+                                        <div className="event-location">
+                                            {event[currentLang].location}
+                                        </div>
+                                        {event.toTickets &&
+                                            <div className="event-tickets">
+                                                <a className="link" href={event.toTickets} alt="ticket" target="_blank" rel="noopener noreferrer">
+                                                    {event[currentLang].buttonText
+                                                        ? event[currentLang].buttonText
+                                                        : t("tour_page.button")
+                                                    }
+                                                </a>
+                                            </div>
+                                        }
+                                    </div>
+                                )
+                        ))}
+                    </div>
                 </div>
             </div>
         </>

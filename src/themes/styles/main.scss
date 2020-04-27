@@ -40,7 +40,6 @@ footer {
     text-align: left;
     color: #000;
     font-size: (12 / 16) + rem;
-
     @include respond(sm) {
         font-size: (16 / 16) + rem;
     }
@@ -58,6 +57,7 @@ img {
 a {
     cursor: pointer;
     color: $link-color;
+    text-decoration: none;
 
     &:hover {
         color: $link-active-color;
@@ -79,8 +79,7 @@ a {
 .content {
     position: relative;
     padding-left: 20%;
-    padding-right: 10%;
-
+    //padding-right: 10%;
     @include respond(sm) {
         padding-left: 5%;
         padding-right: 5%;
@@ -93,24 +92,52 @@ a {
 
 .content-home {
     padding-right: 0;
+    @include respond(sm) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 .button {
     cursor: pointer;
 }
 
-.title-block {
+h2 {
+    &.title {
+        font-family: $font-family-second;
+        font-size: (20 / 16) + rem;
+        font-weight: 500;
+        color: $text-color-secondary;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+}
+
+.main-banner {
+    position: relative;
+}
+
+.block-main-title {
     position: absolute;
     top: 220px;
     left: 0;
     max-width: 40%;
     //overflow-wrap: break-word;
     z-index: 100;
-
     @include respond(sm) {
-        top: 24px;
-        left: 10px;
-        max-width: 55%;
+        top: -50px;
+        left: 18px;
+        max-width: 80%;
+
+        .content-home & {
+            top: -58px;
+        }
+    }
+    @include respond(md) {
+        top: 90px;
+        left: 5px;
+        max-width: 60%;
     }
 
     .subtitle-wrap {
@@ -128,13 +155,15 @@ a {
         color: $title-color;
         line-height: 1.1;
         letter-spacing: 5px;
-
         @include respond(md) {
-            font-size: (60 / 16) + rem;
-        }
-
-        @include respond(sm) {
             font-size: (48 / 16) + rem;
+        }
+    }
+
+    .title {
+        @include respond(sm) {
+            font-size: (32 / 16) + rem;
+            letter-spacing: 1px;
         }
     }
 
@@ -142,18 +171,23 @@ a {
         font-size: (30 / 16) + rem;
         max-width: 200px;
         font-weight: bold;
-        font-family: "open sans", sans-serif;
+        font-family: $font-family;
+        @include respond(sm) {
+            font-size: (24 / 18) + rem;
+            letter-spacing: 1px;
+        }
     }
 }
 
-.about-text-block {
+.about-text-block,
+.main-quotes {
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0 60px;
     border-bottom: 1px solid #000;
 
     .quotes {
-        flex: 0 0 55%;
+        flex: 0 0 56%;
 
         .inner {
             padding-right: 10%;
@@ -173,7 +207,7 @@ a {
     }
 
     .quote-author {
-        font-size: (12 / 16) + rem;
+        font-size: (16 / 16) + rem;
         font-weight: 300;
         color: $text-color-secondary;
         text-align: right;
@@ -181,7 +215,7 @@ a {
     }
 
     .about-text {
-        flex: 0 0 45%;
+        flex: 0 0 44%;
         font-size: (14 / 16) + rem;
         line-height: 1.8;
     }
@@ -199,20 +233,25 @@ a {
 
 .contact-name {
     font-family: $font-family-second;
+    font-size: (20 / 16) + rem;
     font-weight: 300;
     color: $text-color-secondary;
     margin-bottom: 10px;
 }
 
+.contact-email {
+    margin: 20px 0 10px;
+}
+
 .content-music {
     .audio-subtitle {
         font-size: (30 / 16) + rem;
-        line-height: 0.9;
+        line-height: 1.3;
         padding-top: 20px;
         padding-bottom: 70px;
         margin-bottom: 21px;
         white-space: pre-line;
-        border-bottom: 1px solid #222;
+        //border-bottom: 1px solid #222;
     }
 
     .video {
@@ -220,9 +259,13 @@ a {
         padding-top: 56.25%;
         margin: 24px 0;
 
+        &:first-child {
+            margin-top: 0;
+        }
+
         .react-player {
             position: absolute;
-            top: 0;
+            top: 20px;
             left: 0;
         }
     }
@@ -230,6 +273,7 @@ a {
     .video-info {
         display: flex;
         justify-content: space-between;
+        padding-top: 15px;
         padding-bottom: 45px;
         white-space: pre-line;
         border-bottom: 1px solid #222;
@@ -237,7 +281,7 @@ a {
 
     .video-title {
         font-size: (30 / 16) + rem;
-        line-height: 0.9;
+        line-height: 1.3;
         text-transform: uppercase;
 
         .label {
@@ -257,65 +301,64 @@ a {
     border-bottom: 1px solid #222;
 }
 
+.events-year {
+    font-size: (48 / 16) + rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 30px 10px;
+    border-top: 1px solid #979797;
+}
+
 .event {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
     font-family: 'Raleway', 'sans-serif';
-    padding: 30px 20px;
+    padding: 30px 10px;
     border-top: 1px solid #979797;
 
     .event-date {
-        flex: 0 0 15%;
+        flex: 0 0 20%;
         font-weight: 700;
-
+        font-size: (28 / 16) + rem;
+        margin-bottom: 10px;
+        color: #333;
+        white-space: pre-line;
         @include respond(sm) {
+            font-size: (32 / 16) + rem;
             flex: 0 0 100%;
-        }
-
-        .day {
-            font-size: (48 / 16) + rem;
-            margin-right: 5px;
-        }
-
-        .month {
-            font-size: (16 / 16) + rem;
-            vertical-align: baseline;
-
-            @include respond(sm) {
-                font-size: (48 / 16) + rem;
-            }
+            white-space: nowrap;
         }
     }
 
     .event-place {
-        flex: 0 0 45%;
+        flex: 0 0 40%;
         font-weight: 700;
-
+        white-space: pre-line;
         @include respond(sm) {
             flex: 0 0 50%;
-            padding: 20px 0;
+            padding: 0 0 20px;
             font-size: (24 / 16) + rem;
         }
     }
 
     .event-location {
         flex: 0 0 20%;
-
+        white-space: pre-line;
         @include respond(sm) {
-            flex: 0 0 50%;
+            flex: 0 0 40%;
+            padding: 0 0 20px;
             font-size: (24 / 16) + rem;
+            text-align: right;
         }
     }
 
     .event-tickets {
         flex: 0 0 20%;
-
+        align-self: flex-start;
         @include respond(sm) {
             flex: 0 0 100%;
-            padding: 20px 0;
-            font-size: (24 / 16) + rem;
         }
 
         .link {
@@ -326,11 +369,222 @@ a {
             text-align: center;
             transition: none;
             text-decoration: none;
+            @include respond(sm) {
+                padding: 10px 0;
+                font-size: (24 / 16) + rem;
+            }
 
             &:hover {
                 background-color: #000;
                 color: #fff;
             }
+        }
+    }
+}
+
+.content-press {
+    .high-res-image-link {
+        position: absolute;
+        left: -15px;
+        bottom: 10%;
+        padding: 15px;
+        background-color: #fff;
+    }
+
+    h2.title {
+        font-size: (24 / 16) + rem;
+        margin: 60px 0 30px;
+        @include respond(sm) {
+            margin: 30px 0 15px;
+        }
+    }
+
+    .block-bio {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+    }
+
+    .bio-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+
+        .left {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 0 0 35%;
+            align-content: flex-start;
+            padding-right: 20px;
+            @include respond(sm) {
+                flex: 0 0 100%;
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 0 0 65%;
+            align-content: flex-start;
+            //padding-right: 20px;
+            @include respond(sm) {
+                flex: 0 0 100%;
+            }
+        }
+    }
+
+    .bio-items {
+        display: flex;
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        .bio-item {
+            font-family: $font-family-second;
+            line-height: 1.3em;
+            font-size: (18 / 16) + rem;
+            letter-spacing: 1px;
+            margin: 5px 0;
+
+            &::before {
+                content: '/\/';
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .bio-links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        @include respond(sm) {
+            margin-bottom: 30px;
+        }
+
+        a {
+            flex: 2 1 auto;
+            padding: 8px 24px;
+            border: 1px solid $text-color-secondary;
+            margin-bottom: 15px;
+
+            &:hover {
+                color: $text-color-secondary;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .bio-text-label {
+        font-family: $font-family-second;
+        font-size: (18 / 16) + rem;
+        font-weight: 600;
+        margin: 5px 0 20px;
+        letter-spacing: 1px;
+    }
+
+    .bio-text {
+        line-height: 1.8;
+    }
+
+    .block-riders {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+
+        .left {
+            flex: 0 0 40%;
+            padding-right: 20px;
+            @include respond(sm) {
+                flex: 0 0 100%;
+                padding: 0;
+            }
+        }
+
+        .right {
+            flex: 0 0 60%;
+            align-content: flex-start;
+            padding-right: 20px;
+            @include respond(sm) {
+                flex: 0 0 100%;
+                padding: 0;
+            }
+        }
+    }
+
+    .rider-item {
+        display: flex;
+        align-items: baseline;
+
+        a {
+            padding: 8px 24px;
+            border: 1px solid $text-color-secondary;
+            margin: 0 15px 15px 0;
+
+            &:hover {
+                color: $text-color-secondary;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .representation-item {
+        font-family: $font-family-second;
+        font-size: (18 / 16) + rem;
+        margin: 5px 0 20px;
+
+        .label {
+            color: $text-color-secondary;
+            margin-right: 10px;
+        }
+    }
+}
+
+.content-images {
+    min-height: 80vh;
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-link {
+        flex: 0 0 50%;
+        position: relative;
+        padding: 5px;
+
+        &:hover {
+            span {
+                opacity: 1;
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-size: (24 / 16) + rem;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        svg {
+            margin-right: 10px;
+        }
+
+        .img-wrap {
+            position: relative;
         }
     }
 }

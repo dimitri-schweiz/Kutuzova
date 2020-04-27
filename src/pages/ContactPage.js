@@ -2,10 +2,14 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 
-import homeImage from "assets/images/base/contact.jpg";
+import mainImage from "assets/images/base/contact.jpg";
+
+import data from "../data";
 
 function ContactPage() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const currentLang = i18n.languages[0];
+    const { contacts } = data;
 
     return (
         <>
@@ -15,9 +19,9 @@ function ContactPage() {
             </Helmet>
             <div className="content fade-in content-contact">
                 <div className="main-banner">
-                    <img src={homeImage} alt="" className="main-photo" />
+                    <img src={mainImage} alt="" className="main-photo" />
                 </div>
-                <div className="title-block">
+                <div className="block block-main-title">
                     <div className="title-wrap">
                         <h1 className="title">
                             {t("contact_page.title")}
@@ -25,28 +29,21 @@ function ContactPage() {
                     </div>
                 </div>
                 <div className="contacts-block">
-                    <div className="contact contact_1">
-                        <div className="contact-name">
-                            {t("contact_page.contact_1.name")}
+                    {contacts.items.map((contact, index) => (
+                        <div className={"contact contact-" + (index + 1)}>
+                            <div className="contact-name">
+                                {contact.title[currentLang]}
+                            </div>
+                            <div className="contact-email">
+                                <a href={`mailto:${contact.email}`}>
+                                    {contact.email}
+                                </a>
+                            </div>
+                            <div className="contact-phone">
+                                {contact.phoneNumber}
+                            </div>
                         </div>
-                        <div className="contact-email">
-                            {t("contact_page.contact_1.email")}
-                        </div>
-                        <div className="contact-phone">
-                            {t("contact_page.contact_1.phone")}
-                        </div>
-                    </div>
-                    <div className="contact contact_2">
-                        <div className="contact-name">
-                            {t("contact_page.contact_2.name")}
-                        </div>
-                        <div className="contact-email">
-                            {t("contact_page.contact_2.email")}
-                        </div>
-                        <div className="contact-phone">
-                            {t("contact_page.contact_2.phone")}
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </>

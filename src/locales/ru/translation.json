@@ -1,64 +1,76 @@
 {
-    "base": {
-        "navbar": {
-            "link": {
-                "home": "главная",
-                "about": "обо мне",
-                "music": "медиа",
-                "tour": "концерты",
-                "gallery": "галерея",
-                "epk": "загрузки",
-                "contact": "контакт"
-            }
-        },
-        "footer": {
-            "artist_name": "ArtDIALOG"
-        }
+  "base": {
+    "navbar": {
+      "link": {
+        "home": "главная",
+        "about": "био",
+        "tour": "концерты",
+        "music": "медиа",
+        "gallery": "галерея",
+        "press": "пресс-кит",
+        "contact": "контакт"
+      }
     },
-    "start_page": {
-        "seo_title": "Варвара Кутузова",
-        "subtitle": "Варвара\nКутузова //",
-        "title": "ДОБРО ПОЖАЛОВАТЬ НА САЙТ"
-    },
-    "about_page": {
-        "seo_title": "Обо мне",
-        "title": "Обо мне",
-        "quote_1": {
-            "text":"Самая лучшая пианистка, которую я когда-либо слушал",
-            "author": "- Денис Мацуев , Газета `Известия` "
-        },
-        "quote_2": {
-            "text":"Я очень хорошо помню эту девочку, которая не постеснялась меня спросить про рояли",
-            "author": "- Владимир Путин, Сочи `Сириус`"
-        },
-        "bio_text": "Дорогие россияне! <br/> Очень рада, что вы наконец-то плюнули на всех и на всё и зашли ко мне на страницу.<br/><br/> Короче, родилась я в Архангельске, но это было давно, а теперь вот ломаю голову над тем, какую бы херню вам тут написать в приветствии.<br/> Вот!"
-    },
-    "contact_page": {
-        "seo_title": "Контакт",
-        "title": "Контакт",
-        "contact_1": {
-            "name": "MANAGEMENT | ArtDialog Agency",
-            "email": "vasylyev@artdialog.ch",
-            "phone": "+123-456-7890"
-        },
-       "contact_2": {
-            "name": "По России | Катя Гольцман",
-            "email": "info@бла-бла.com ",
-            "phone": "+123-456-7890"
-        }
-    },
-    "gallery_page": {
-        "seo_title": "Галерея",
-        "title": "Галерея"
-    },
-    "music_page": {
-        "seo_title": "Медиа",
-        "seo_description": "Music Description",
-        "title": "Медиа"
-    },
-    "tour_page": {
-        "seo_title": "Концерты",
-        "seo_description": "Music Description",
-        "title": "Концерты"
+    "footer": {
+      "artist_name": "ArtDialog Agency"
     }
+  },
+  "start_page": {
+    "seo_title": "Варвара Кутузова",
+    "title": "Варвара\n Кутузова",
+    "subtitle": "// \n фортепиано"
+  },
+  "about_page": {
+    "seo_title": "БИО",
+    "title": "Биография"
+  },
+  "contact_page": {
+    "seo_title": "Контакт",
+    "title": "Контакт",
+    "contact_1": {
+      "name": "Международный менеджмент | ArtDialog Agency",
+      "name_1": "Дмитрий Васильев",
+      "email": "vasylyev@artdialog.ch",
+      "phone": "+41763655316"
+    },
+    "contact_2": {
+      "name": "Менеджмент по России | DailyCulture Agency",
+      "name_1": "Екатерина Гольцман",
+      "email": "goltcmangroup@gmail.com",
+      "phone": "+79685061438"
+    }
+  },
+  "gallery_page": {
+    "seo_title": "Галерея",
+    "title": "Галерея"
+  },
+  "music_page": {
+    "seo_title": "Медиа",
+    "seo_description": "Music Description",
+    "title": "Медиа",
+    "video_title": "ВИДЕО",
+    "audio_title": "АУДИО"
+  },
+  "tour_page": {
+    "seo_title": "Концерты",
+    "seo_description": "Tour Description",
+    "title": "Концерты",
+    "button": "Билеты"
+  },
+  "press_page": {
+    "seo_title": "Пресс-кит",
+    "seo_description": "Пресс-кит",
+    "title": "Пресс-кит",
+    "hi_res_link_text": "Download Hi-Res Photos >>",
+    "riders": "Riders",
+    "representation": "Representation",
+    "bio_title": "",
+    "riders_title": "",
+    "representation_title": ""
+  },
+  "images_page": {
+    "seo_title": "Images",
+    "seo_description": "High resolution images",
+    "title": "HD ФОТО"
+  }
 }

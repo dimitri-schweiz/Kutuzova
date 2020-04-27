@@ -31,10 +31,10 @@ function NavMenu() {
                                 <div className="vn-navbar-nav">
                                     <NavLink exact className="vn-nav-link" to="/" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.home")}</NavLink>
                                     <NavLink className="vn-nav-link" to="/about" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.about")}</NavLink>
-                                    <NavLink className="vn-nav-link" to="/music" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.music")}</NavLink>
                                     <NavLink className="vn-nav-link" to="/tour" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.tour")}</NavLink>
+                                    <NavLink className="vn-nav-link" to="/music" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.music")}</NavLink>
                                     <NavLink className="vn-nav-link" to="/gallery" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.gallery")}</NavLink>
-                                    <NavLink className="vn-nav-link" to="/epk" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.epk")}</NavLink>
+                                    <NavLink className="vn-nav-link" to="/press" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.press")}</NavLink>
                                     <NavLink className="vn-nav-link" to="/contact" onClick={() => setOpen(!isOpen)}>{t("base.navbar.link.contact")}</NavLink>
                                 </div>
                             </div>

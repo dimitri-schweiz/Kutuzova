@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import { withTranslation } from "react-i18next";
 import classNames from "classnames";
 
-import coverImage from "assets/images/base/music.jpg";
+//import coverImage from "assets/images/base/music.jpg";
 
 import Duration from "./duration";
 import Timeline from "./timeline";
@@ -211,11 +211,11 @@ class AudioPlayer extends Component {
                     onProgress={this.handleProgress}
                     onDuration={this.handleDuration}
                 />
-                <div className="cover-wrapper">
+                {/* <div className="cover-wrapper">
                     <div className="cover-image">
                         <img src={coverImage} alt="" className="album-cover" />
                     </div>
-                </div>
+                </div> */}
                 <div className="control-wrapper">
                     <div className="title-wrapper">
                         <div className="track-name">{currentTrack[currentLang] && currentTrack[currentLang].trackName}</div>

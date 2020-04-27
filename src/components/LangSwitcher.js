@@ -6,7 +6,7 @@ import { languages } from "../utils/i18next";
 import "../themes/styles/navMenu.scss";
 
 
-function NavMenu() {
+function LangSwitcher() {
     const { i18n } = useTranslation();
 
     const langClass = lang => {
@@ -15,11 +15,11 @@ function NavMenu() {
 
     return (
         <>
-            {languages.map(lang => (
-                <span className={langClass(lang)} onClick={() => i18n.changeLanguage(lang)}>{lang}</span>
+            {languages.map((lang, index) => (
+                <span className={langClass(lang)} onClick={() => i18n.changeLanguage(lang)} key={index}>{lang}</span>
             ))}
         </>
     );
 }
 
-export default NavMenu;
+export default LangSwitcher;

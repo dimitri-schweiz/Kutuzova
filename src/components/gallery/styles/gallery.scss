@@ -53,7 +53,7 @@
     }
 
     .fullscreen-image-side {
-        flex: 0 0 70%;
+        flex: 0 0 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -81,8 +81,9 @@
     }
 
     .fullscreen-text-side {
-        flex: 0 0 30%;
+        flex: 0 0 100%;
         padding: 10px 40px 0 0;
+        text-align: center;
 
         @include respond(sm) {
             flex: 0 0 100%;
@@ -95,8 +96,8 @@
             color: #222;
             font-weight: 600;
             margin-bottom: 16px;
-        }
-    }
+                
+    }} 
 
     .btn {
         display: flex;

@@ -15,8 +15,8 @@ function GalleryPage() {
                 <title>{t("start_page.seo_title")}</title>
                 <meta name="description" content={t("start_page.seo_title")} />
             </Helmet>
-            <div className="content content-home fade-in">
-                <div className="title-block">
+            <div className="content content-gallery fade-in">
+                <div className="block block-main-title">
                     <div className="title-wrap">
                         <h1 className="title">
                             {t("gallery_page.title")}

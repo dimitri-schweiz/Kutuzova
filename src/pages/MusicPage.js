@@ -19,22 +19,17 @@ function MusicPage() {
                 <meta name="description" content={t("music_page.seo_description")} />
             </Helmet>
             <div className="content fade-in content-music">
-                <div className="title-block">
+                <div className="block block-main-title">
                     <div className="title-wrap">
                         <h1 className="title">
                             {t("music_page.title")}
                         </h1>
                     </div>
                 </div>
-                <div className="audio-player-block">
-                    <div className="audio-player">
-                        <AudioPlayer tracks={music.tracks} />
-                    </div>
-                    <div className="audio-subtitle">
-                        {music.albumTitle[currentLang]}
-                    </div>
-                </div>
                 <div className="video-player-block">
+                    <h2 className="title">
+                        {t("music_page.video_title")}
+                    </h2>
                     {video.tracks.map((track, index) => (
                         <div className="video-track" key={index}>
                             <div className="video">
@@ -58,6 +53,17 @@ function MusicPage() {
                         </div>
                     ))}
                 </div>
+                {/* <div className="audio-player-block">
+                    <h2 className="title">
+                        {t("music_page.audio_title")}
+                    </h2>
+                    <div className="audio-player">
+                        <AudioPlayer tracks={music.tracks} />
+                    </div>
+                    <div className="audio-subtitle">
+                        {music.albumTitle[currentLang]}
+                    </div>
+                </div> */}
             </div>
         </>
     );

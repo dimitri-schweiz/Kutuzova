@@ -33,7 +33,7 @@ function Social() {
                     <span><FontAwesomeIcon icon={faYoutube} /></span>
                 </a>
             }
-         </div>
+        </div>
     );
 }
 

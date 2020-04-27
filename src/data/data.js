@@ -5,7 +5,7 @@ const data = {
             twitter: "",
             youtube: "https://www.youtube.com/user/kutandr/videos",
             instagram: "https://www.instagram.com/varvarakutuzova.piano",
-            vk: "https://vk.com/varvarakutuzova",
+            vk: "https://vk.com/vkutuzova_piano",
         }
     },
     gallery: [

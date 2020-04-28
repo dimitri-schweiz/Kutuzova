@@ -671,14 +671,14 @@ const data = {
                 en: {
                     label: "",
                     trackName: "Soul of SENAR",
-                    description: `Edited and Filmed by IVAN PROSKURYAKOV
-                    Produced by ArtDIALOG`
+                    description: `Edited and Filmed by <a href="https://reelsource.ru/en/profile/1474" class="link" target="_blank">IVAN PROSKURYAKOV</a>
+                    Produced by <a href="https://artdialog.ch" class="link" target="_blank">ArtDIALOG</a>`
                 },
                 ru: {
                     label: "",
                     trackName: "Soul of SENAR",
-                    description: `Режиссёр и оператор ИВАН ПРОСКУРЯКОВ
-                    Produced by ArtDIALOG`
+                    description: `Режиссёр и оператор <a href="https://reelsource.ru/en/profile/1474" class="link" target="_blank">ИВАН ПРОСКУРЯКОВ</a>
+                    Продюссер <a href="https://artdialog.ch" class="link" target="_blank">ArtDIALOG</a>`
                 }
             },
             {

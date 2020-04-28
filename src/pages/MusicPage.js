@@ -49,7 +49,9 @@ function MusicPage() {
                                     <span className="track-name">{track[currentLang] && track[currentLang].trackName}</span>
                                 </div>
                                 <div className="video-description">
-                                    {track[currentLang] && track[currentLang].description}
+                                    {track[currentLang] && track[currentLang].description &&
+                                        <div dangerouslySetInnerHTML={{ __html: track[currentLang].description }} />
+                                    }
                                 </div>
                             </div>
                         </div>

@@ -401,8 +401,8 @@ h2 {
         left: -15px;
         bottom: 10%;
         padding: 15px;
-        color: #34cfc8;
-        background-color: #000;
+        color: $link-active-color;
+        background-color: $body-bg-color;
     }
 
     h2.title {

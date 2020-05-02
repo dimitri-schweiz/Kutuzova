@@ -356,7 +356,7 @@ const data = {
                 },
                 ru: {
                     label: "Ф. Мендельсон",
-                    trackName: "Песння без слов<br> Op.67 No. 3",
+                    trackName: "Песня без слов<br> Op.67 No. 3",
                     description: "Москва, <br>январь 2019"
                 }
             },
@@ -378,12 +378,12 @@ const data = {
                 en: {
                     label: "S. Prokofiev",
                     trackName: "10 Pieces for Piano<br> Op.12",
-                    description: "Lipetzk, <br>januar 2019"
+                    description: "Lipetzk, <br>november 2019"
                 },
                 ru: {
                     label: "С. Прокофьев",
-                    trackName: "10 пьес для фортепифно<br> Op.12",
-                    description: "Липецк, <br>январь 2019"
+                    trackName: "10 пьес для фортепиано<br> Op.12",
+                    description: "Липецк, <br>ноябрь 2019"
                 }
             },
         ]

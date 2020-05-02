@@ -10,392 +10,7 @@ const data = {
     },
     gallery: [
         {
-            fileName: "00001.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00002.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00003.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00004.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00005.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00006.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00007.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00008.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00009.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00010.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00011.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00012.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00013.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00014.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00015.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00016.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00017.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00018.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00019.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00020.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00021.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00022.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00023.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00024.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00025.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00026.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00027.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00028.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00029.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00030.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00031.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00032.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00033.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00034.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "00036.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "0006.jpg",
+            fileName: "0001.jpg",
             en: {
                 title: "",
                 description: ""
@@ -434,7 +49,7 @@ const data = {
                 description: ""
             },
             ru: {
-                title: "название",
+                title: "",
                 description: ""
             }
         },
@@ -450,7 +65,7 @@ const data = {
             }
         },
         {
-            fileName: "0001.jpg",
+            fileName: "0006.jpg",
             en: {
                 title: "",
                 description: ""
@@ -482,6 +97,7 @@ const data = {
                 description: ""
             }
         },
+        
         {
             fileName: "0009.jpg",
             en: {
@@ -505,51 +121,7 @@ const data = {
             }
         },
         {
-            fileName: "0011.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "0012.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
             fileName: "0013.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "0014.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "0015.jpg",
             en: {
                 title: "",
                 description: ""
@@ -571,6 +143,28 @@ const data = {
             }
         },
         {
+            fileName: "0026.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "",
+                description: ""
+            }
+        },
+        {
+            fileName: "0014.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "",
+                description: ""
+            }
+        },
+        {
             fileName: "0017.jpg",
             en: {
                 title: "",
@@ -582,7 +176,40 @@ const data = {
             }
         },
         {
-            fileName: "0018.jpg",
+            fileName: "0015.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "",
+                description: ""
+            }
+        },
+        {
+            fileName: "0021.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "",
+                description: ""
+            }
+        },
+        {
+            fileName: "0020.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "",
+                description: ""
+            }
+        },
+        {
+            fileName: "0025.jpg",
             en: {
                 title: "",
                 description: ""
@@ -669,31 +296,96 @@ const data = {
             {
                 url: "https://www.youtube.com/embed/mAVM5qwed8A",
                 en: {
-                    label: "",
+                    label: "Film",
                     trackName: "Soul of SENAR",
-                    description: `Edited and Filmed by <a href="https://reelsource.ru/en/profile/1474" class="link" target="_blank">IVAN PROSKURYAKOV</a>
-                    Produced by <a href="https://artdialog.ch" class="link" target="_blank">ArtDIALOG</a>`
+                    description: `Edited and Filmed by <a href="https://reelsource.ru/en/profile/1474" class="link" target="_blank"> IVAN PROSKURYAKOV</a>
+                    Produced by <a href="http://artdialog.ch" class="link" target="_blank">ArtDIALOG</a>`
                 },
                 ru: {
-                    label: "",
+                    label: "Фильм",
                     trackName: "Soul of SENAR",
-                    description: `Режиссёр и оператор <a href="https://reelsource.ru/en/profile/1474" class="link" target="_blank">ИВАН ПРОСКУРЯКОВ</a>
-                    Продюссер <a href="https://artdialog.ch" class="link" target="_blank">ArtDIALOG</a>`
+                    description: `Режиссёр и оператор <a href="https://reelsource.ru/en/profile/1474" class="link" target="_blank"> ИВАН ПРОСКУРЯКОВ</a>
+                    Продюссер <a href="http://artdialog.ch" class="link" target="_blank">ArtDIALOG</a>`
                 }
             },
             {
-                url: "https://youtu.be/eSjPWElU4Dc?list=RDfkYpvDxGo-U",
+                url: "https://youtu.be/D4_cpHxW8ro",
                 en: {
-                    label: "P.I.Tchaikovsky",
-                    trackName: "Theme & Variations",
-                    description: "Moscow, februar 2019 "
+                    label: "S. Rchmaninoff",
+                    trackName: "Rhapsody on a theme of Paganini",
+                    description: "Moscow, <br>december 2019"
                 },
                 ru: {
-                    label: "П.И.Чайковский",
-                    trackName: "Тема с вариациями",
-                    description: "Москва, февраль 2019"
+                    label: "С.В. Рахманинов",
+                    trackName: "Рапсодия на тему Паганини",
+                    description: "Москва, <br>декабрь 2019"
                 }
-            }
+            },
+            {
+                url: "https://youtu.be/mw_iigofDSo",
+                en: {
+                    label: "J.S. Bach",
+                    trackName: "Prelude and Fugue in D minor <br> WTC II BWV 875",
+                    description: "Moscow, <br>februar 2019"
+                },
+                ru: {
+                    label: "Й.С. Бах",
+                    trackName: "Прелюдия и фуга ре-минор <br> WTC II BWV 875",
+                    description: "Москва, <br>февраль 2019"
+                }
+            },
+            {
+                url: "https://youtu.be/yO4GqlsJXyg",
+                en: {
+                    label: "J. Haydn",
+                    trackName: "Piano Sonata in G major<br> Hob. XVI.6",
+                    description: `Moscow, <br>februar 2019`
+                },
+                ru: {
+                    label: "Й. Гайдн",
+                    trackName: "Соната соль-мажор<br> Hob. XVI.6",
+                    description: `Москва, <br>февраль 2019`
+                }
+            },
+            {
+                url: "https://youtu.be/fkYpvDxGo-U",
+                en: {
+                    label: "F. Mendelssohn",
+                    trackName: "Songs without Words<br> Op.67 No. 3",
+                    description: "Moscow, <br>januar 2019"
+                },
+                ru: {
+                    label: "Ф. Мендельсон",
+                    trackName: "Песння без слов<br> Op.67 No. 3",
+                    description: "Москва, <br>январь 2019"
+                }
+            },
+            {
+                url: "https://youtu.be/vb9fkAYx7vY",
+                en: {
+                    label: "S. Rchmaninoff",
+                    trackName: "Pieces-fantasies<br> Op.3",
+                    description: "Kazan, <br>october 2019"
+                },
+                ru: {
+                    label: "С.В. Рахманинов",
+                    trackName: "Пьесы-Фантазии<br> Op.3",
+                    description: "Казань, <br>октябрь 2019"
+                }
+            },
+            {
+                url: "https://youtu.be/W9ZxLDDHFfo",
+                en: {
+                    label: "S. Prokofiev",
+                    trackName: "10 Pieces for Piano<br> Op.12",
+                    description: "Lipetzk, <br>januar 2019"
+                },
+                ru: {
+                    label: "С. Прокофьев",
+                    trackName: "10 пьес для фортепифно<br> Op.12",
+                    description: "Липецк, <br>январь 2019"
+                }
+            },
         ]
     },
     tour: {

@@ -176,7 +176,7 @@ const data = {
             }
         },
         {
-            fileName: "0015.jpg",
+            fileName: "0020.jpg",
             en: {
                 title: "",
                 description: ""
@@ -198,7 +198,7 @@ const data = {
             }
         },
         {
-            fileName: "0020.jpg",
+            fileName: "0015.jpg",
             en: {
                 title: "",
                 description: ""

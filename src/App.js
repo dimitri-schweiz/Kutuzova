@@ -32,8 +32,8 @@ function App() {
                     <Route exact path='/images' component={ImagesPage} />
                     <Route path="*" to="/" />
                 </Layout>
-            <Switch>
-        <BrowserRouter>
+            </Switch>
+        </BrowserRouter>
     );
 } 
 

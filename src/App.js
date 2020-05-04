@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 // import ReactGA from "react-ga";
 
 import Layout from "./components/Layout";
@@ -19,16 +19,21 @@ function App() {
     // ReactGA.initialize('UA-');
 
     return (
-        <Layout>
-            <Route exact path='/' component={StartPage} />
-            <Route exact path='/about' component={AboutPage} />
-            <Route exact path='/music' component={MusicPage} />
-            <Route exact path='/tour' component={TourPage} />
-            <Route exact path='/gallery' component={GalleryPage} />
-            <Route exact path='/press' component={PressPage} />
-            <Route exact path='/contact' component={ContactPage} />
-            <Route exact path='/images' component={ImagesPage} />
-        </Layout>
+        <BrowserRouter >
+            <Switch>
+                <Layout>
+                    <Route exact path='/' component={StartPage} />
+                    <Route exact path='/about' component={AboutPage} />
+                    <Route exact path='/music' component={MusicPage} />
+                    <Route exact path='/tour' component={TourPage} />
+                    <Route exact path='/gallery' component={GalleryPage} />
+                    <Route exact path='/press' component={PressPage} />
+                    <Route exact path='/contact' component={ContactPage} />
+                    <Route exact path='/images' component={ImagesPage} />
+                    <Route path="*" to="/" />
+                </Layout>
+            <Switch>
+        <BrowserRouter >
     );
 }
 

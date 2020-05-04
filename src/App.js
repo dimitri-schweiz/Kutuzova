@@ -33,8 +33,8 @@ function App() {
                     <Route path="*" to="/" />
                 </Layout>
             <Switch>
-        <BrowserRouter >
+        <BrowserRouter>
     );
-}
+} 
 
 export default App;

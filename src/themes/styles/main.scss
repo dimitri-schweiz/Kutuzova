@@ -109,7 +109,7 @@ h2 {
         font-weight: 500;
         color: $text-color-secondary;
         text-transform: uppercase;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         letter-spacing: 2px;
     }
 }
@@ -260,7 +260,7 @@ h2 {
         margin: 24px 0;
 
         &:first-child {
-            margin-top: 0;
+            margin-top: 20px;
         }
 
         .react-player {
@@ -273,9 +273,8 @@ h2 {
     .video-info {
         display: flex;
         justify-content: space-between;
-        padding: 15px 0 45px 0;
+        padding: 15px 0 20px 0;
         white-space: pre-line;
-        border-bottom: 1px solid #979797;
     }
 
     .video-title {

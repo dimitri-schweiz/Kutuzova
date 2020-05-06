@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import mainImage from "assets/images/base/press.jpg";
+import mainImage from "../assets/images/base/press.jpg";
 
 import data from "../data";
 

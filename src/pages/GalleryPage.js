@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 
-import Gallery from "components/gallery";
+import Gallery from "../components/gallery";
 
 import data from "../data";
 

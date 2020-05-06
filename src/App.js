@@ -26,15 +26,14 @@ function App() {
                     <Route exact path='/about' component={AboutPage} />
                     <Route exact path='/music' component={MusicPage} />
                     <Route exact path='/tour' component={TourPage} />
-                    <Route exact path='/gallery' component={GalleryPage} />
-                    <Route exact path='/press' component={PressPage} />
+                    <Route exact path='/img-gallery' component={GalleryPage} />
+                    <Route exact path='/press-kit' component={PressPage} />
                     <Route exact path='/contact' component={ContactPage} />
                     <Route exact path='/images' component={ImagesPage} />
-                    <Route path="*" to="/" />
                 </Layout>
             </Switch>
         </BrowserRouter>
     );
-} 
+}
 
 export default App;
